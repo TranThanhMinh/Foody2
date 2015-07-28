@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="body_padding">5dp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="text_size_large">25sp</dimen>
+
+    <!-- title bar start -->
+    <dimen name="titlebar_height">45dip</dimen>
+    <dimen name="titlebar_back_margin">5dip</dimen>
+    <dimen name="titlebar_action_margin">5dip</dimen>
+    <!-- title bar end -->
+
+</resources>

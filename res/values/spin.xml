@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="foody">
+        <item >Ăn Uống</item>
+        <item>Ăn Uống</item>
+        <item>Ăn Uống</item>
+    </string-array>
+</resources>
