@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    	<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="50dp"
+    	    android:orientation="vertical" >
+    	    
+    	</LinearLayout>
+		<View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+    	<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content" >
+
+    	    <TextView
+    	        android:id="@+id/textView1"
+    	        android:layout_width="110dp"
+    	        android:layout_height="match_parent"
+    	        android:gravity="left|center"
+    	        android:text="Tên khách hàng" />
+
+    	    <EditText
+    	        android:id="@+id/edittenKH"
+    	        android:layout_width="wrap_content"
+    	        android:layout_height="40dp"
+    	        android:layout_weight="0.13"
+    	        android:ems="10"
+    	        android:textSize="15sp" >
+
+    	        <requestFocus />
+    	    </EditText>
+    	</LinearLayout>
+		<View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+		<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content" >
+
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="112dp"
+			    android:layout_height="match_parent"
+			   
+			    android:gravity="left|center"
+			    android:text="Giới tính" />
+
+			<Spinner
+			    android:id="@+id/spingioitinh"
+			    android:layout_width="106dp"
+			    android:layout_height="32dp"
+			    android:layout_weight="0.36"
+			    android:background="#ffffff" />
+    	</LinearLayout>
+		<View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+		<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content" >
+
+			<TextView
+			    android:id="@+id/textView3"
+			    android:layout_width="110dp"
+			    android:layout_height="match_parent"
+			    android:gravity="left|center"
+			    android:text="Email" />
+
+    	    <EditText
+    	        android:id="@+id/editMAIL"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="40dp"
+    	        android:ems="10"
+    	        android:textSize="15sp" />
+
+    	</LinearLayout>
+		<View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+		<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content" >
+
+    	    <TextView
+    	        android:id="@+id/textView4"
+    	        android:layout_width="110dp"
+    	        android:layout_height="match_parent"
+    	        
+    	        android:gravity="left|center"
+    	        android:text="Số điện thoại" />
+
+    	    <EditText
+    	        android:id="@+id/editSDT"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="40dp"
+    	        android:ems="10"
+    	        android:textSize="15sp" >
+
+    	        <requestFocus />
+    	    </EditText>
+    	</LinearLayout>
+		<View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+		<LinearLayout
+    	    android:layout_width="match_parent"
+    	    android:layout_height="wrap_content" >
+
+    	    <TextView
+    	        android:id="@+id/textView5"
+    	        android:layout_width="110dp"
+    	        android:layout_height="match_parent"
+    	        
+    	        android:gravity="left|center"
+    	        android:text="Địa chỉ" />
+
+    	    <EditText
+    	        android:id="@+id/editDIACHI"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="60dp"
+    	        android:ems="10"
+    	        android:textSize="15sp" >
+
+    	        <requestFocus />
+    	    </EditText>
+    	</LinearLayout>
+		<View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="80dp"
+		    android:gravity="center"
+		    android:orientation="vertical" >
+
+		    <Button
+		        android:id="@+id/btnluu1"
+		        android:layout_width="match_parent"
+		        android:layout_height="30dp"		 
+		        android:background="#088A29"
+		        android:textColor="#FFFFFF"
+		        android:text="Lưu thay đổi" />
+		</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="67dp"
+            android:layout_height="75dp"
+           />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:text="TextView" />
+
+	</LinearLayout>
+			<RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/main_icon_content_image_view"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/ecard" />
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/button_listen"
+                            android:layout_alignBottom="@+id/button_listen"
+                            android:layout_marginLeft="18dp"
+                            android:layout_toRightOf="@+id/main_icon_content_image_view"
+                            android:text="E-Card" />
+
+                        <Button
+                            android:id="@+id/button_listen"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:background="#00000000"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+                    <View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+                    
+                    
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/ll"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:text=""
+                            android:textColor="#FFFFFF"
+                            android:background="#00000000"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/mm"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/bl" />
+
+                        <TextView
+                            android:id="@+id/ff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/ll"
+                            android:layout_alignBottom="@+id/ll"
+                            android:layout_marginLeft="18dp"
+                            android:layout_toRightOf="@+id/mm"
+                            android:text="Bình luận" />
+
+                    </RelativeLayout>
+                    <View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+                    
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <Button
+                                android:id="@+id/lll"
+                                android:layout_width="fill_parent"
+                                android:layout_height="40dp"
+                                android:background="#00000000"
+                                android:text=""
+                                android:textColor="#FFFFFF"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/imageView2"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:src="@drawable/ha" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/lll"
+                                android:layout_alignBottom="@+id/lll"
+                                android:layout_marginLeft="16dp"
+                                android:layout_toRightOf="@+id/imageView2"
+                                android:text="Hình ảnh" />
+
+                        </RelativeLayout>
+
+                    <View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+                    
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+
+                            <Button
+                                android:id="@+id/button1"
+                                android:layout_width="fill_parent"
+                                android:layout_height="40dp"
+                                android:background="#00000000"
+                                android:text=""
+                                android:textColor="#FFFFFF"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentTop="true"
+                                android:src="@drawable/bst" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignBaseline="@+id/button1"
+                                android:layout_alignBottom="@+id/button1"
+                                android:layout_marginLeft="16dp"
+                                android:layout_toRightOf="@+id/imageView3"
+                                android:text="Bộ sưu tập" />
+
+                        </RelativeLayout>
+
+                    <View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+                    
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/bb" />
+
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:background="#00000000"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/button2"
+                            android:layout_alignBottom="@+id/button2"
+                            android:layout_marginLeft="16dp"
+                            android:layout_toRightOf="@+id/imageView4"
+                            android:text="Bạn bè" />
+
+                    </RelativeLayout>
+
+                    <View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+                    
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/btnthietlap"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:background="#00000000"
+                            android:text=""
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/setting" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/btnthietlap"
+                            android:layout_alignBottom="@+id/btnthietlap"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/imageView5"
+                            android:text="Thiết lập tài khoản" />
+
+                    </RelativeLayout>
+
+                    <View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+                    
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:id="@+id/btndangxuat"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:background="#00000000"
+                            android:text=""
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/btndangxuat"
+                            android:layout_alignBottom="@+id/btndangxuat"
+                            android:layout_marginLeft="17dp"
+                            android:layout_toRightOf="@+id/imageView7"
+                            android:text="Đăng xuất" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="40dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/images" />
+
+                    </RelativeLayout>
+
+                    <View 
+						    android:layout_width="match_parent"
+			                android:layout_height="2dp"
+			                android:background="#A4A4A4"/>
+                    
+</LinearLayout>

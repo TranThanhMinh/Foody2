@@ -1,7 +1,8 @@
 <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@android:id/tabhost"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+     android:background="#FFFFFF">
 <RelativeLayout 
     android:layout_width="match_parent"
     android:layout_height="wrap_content" >
@@ -14,6 +15,7 @@
          
         <TabWidget
             android:id="@android:id/tabs"
+            android:background="#2E2E2E"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
              
@@ -52,45 +54,16 @@
             android:id="@android:id/tabcontent"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"/>
+         <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout2"
+        android:orientation="vertical" >
+        </LinearLayout>
     </LinearLayout>
 	
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:background="#333333"
-         
-        android:orientation="horizontal" >
 
-        <Button
-            android:id="@+id/imageButton7"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-        	android:background="@null"
-        	android:textSize="15sp"
-        	android:textColor="@color/white"
-        	android:text="Nổi Bật"
-             />
-         <Button
-            android:id="@+id/imageButton6"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-        	android:background="@null"
-        	android:textSize="15sp"
-        	android:textColor="@color/white"
-        	android:text="Nổi Bật"
-             />
-         <Button
-            android:id="@+id/imageButton5"
-            android:layout_width="70dp"
-            android:layout_height="wrap_content"
-        	android:background="@null"
-        	android:textSize="15sp"
-        	android:textColor="@color/white"
-        	android:text="Nổi Bật"
-             />
-    </LinearLayout>
 
 </RelativeLayout>
 </TabHost>

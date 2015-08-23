@@ -1,7 +1,7 @@
 <resources>
 
-    <string name="app_name">Contact List</string>
-    <string name="title_activity_main">Contact List</string>
+    <string name="app_name">KFoody</string>
+    <string name="title_activity_main">KFoody</string>
     <string name="title_activity_add">New Contact</string>
     <string name="title_activity_view">Contact Detail</string>
     <string name="contact_name">Full Name</string>
@@ -19,4 +19,10 @@
         <item>Bangladesh</item>
         <item>Russia</item>
     </string-array>  
+    <style name="MySpinnerLook" 
+           parent="@android:TextAppearance.Widget.TextView.SpinnerItem">
+   			 <item name="android:textSize">22sp</item>
+
+ 	 </style>
+    <string name="facebook_id">879402742134699</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="titlebar_container" type="id"/>
+    <item name="titlebar_logo" type="id"/>
+    <item name="titlebar_back" type="id"/>
+    <item name="titlebar_save" type="id"/>
+    <item name="titlebar_add" type="id"/>
+    <item name="titlebar_text" type="id"/>
+    <item name="content_body" type="id"/>
+
+</resources>

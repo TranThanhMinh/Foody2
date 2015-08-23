@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FF0000" >
+
+        <ImageButton
+            android:id="@+id/imexit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/titlebar_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="left|center"
+            android:text="1. Chi tiết đặt chổ"
+            android:textColor="#FF0000" />
+    </LinearLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+
+        <EditText
+            android:id="@+id/editngay1"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_x="11dp"
+            android:layout_y="30dp"
+            android:ems="10"
+            android:inputType="date"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imtime"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_x="16dp"
+            android:layout_y="38dp"
+            android:src="@drawable/date" />
+
+        <EditText
+            android:id="@+id/editsnl"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_x="14dp"
+            android:layout_y="104dp"
+            android:ems="10"
+            android:inputType="number"
+            
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imsnl"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_x="19dp"
+            android:layout_y="112dp"
+            android:src="@drawable/bb" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="106dp"
+            android:layout_height="32dp"
+            android:layout_x="41dp"
+            android:layout_y="106dp"
+            android:background="@null" />
+
+        <EditText
+            android:id="@+id/editgio1"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_x="184dp"
+            android:layout_y="30dp"
+            android:ems="10"
+            android:inputType="time"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_x="192dp"
+            android:layout_y="38dp"
+            android:src="@drawable/time" />
+
+        <EditText
+            android:id="@+id/editsotre"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_x="184dp"
+            android:layout_y="104dp"
+            android:ems="10"
+            android:inputType="number" />
+
+        <ImageView
+            android:id="@+id/imste"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_x="189dp"
+            android:layout_y="112dp"
+            android:src="@drawable/bb" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="106dp"
+            android:layout_height="32dp"
+            android:layout_x="212dp"
+            android:layout_y="106dp"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="15dp"
+            android:layout_y="5dp"
+            android:text="ngày đến *" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="189dp"
+            android:layout_y="5dp"
+            android:text="giờ đến *" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="18dp"
+            android:layout_y="80dp"
+            android:text="Số người lớn *" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="186dp"
+            android:layout_y="80dp"
+            android:text="Số trẻ em *" />
+    </AbsoluteLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txttt"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="left|center"
+            android:text="2. Thông tin liên hệ"
+            android:textColor="#FF0000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Họ tên *" />
+
+        <EditText
+            android:id="@+id/txttenkh"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textSize="12sp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/txtht"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Điện thoại *" />
+
+        <EditText
+            android:id="@+id/txtsdt"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+             android:textSize="12sp"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/txtht1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Email *" />
+
+        <EditText
+            android:id="@+id/txtemail"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+             android:textSize="12sp"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+        <Button
+            android:id="@+id/btn_insertdat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Button" />
+    </LinearLayout>
+
+</LinearLayout>

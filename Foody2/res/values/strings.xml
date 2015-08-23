@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Contact List</string>
+    <string name="title_activity_main">Contact List</string>
+    <string name="title_activity_add">New Contact</string>
+    <string name="title_activity_view">Contact Detail</string>
+    <string name="contact_name">Full Name</string>
+    <string name="contact_phone">Phone Number</string>
+    <string name="action_update">Update</string>
+    <string name="action_delete">Delete</string>
+    <string-array name="countries_array">
+        <item>China</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>Indonesia</item>
+        <item>Brazil</item>
+        <item>Pakistan</item>
+        <item>Nigeria</item>
+        <item>Bangladesh</item>
+        <item>Russia</item>
+    </string-array>  
+</resources>

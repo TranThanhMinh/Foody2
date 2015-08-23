@@ -1,0 +1,96 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+         android:id="@+id/layout1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp">
+         
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+             
+       
+             
+    </LinearLayout>
+
+	
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+         android:layout_below="@id/layout1" >
+
+        <Spinner
+            android:id="@+id/spiner"
+            android:layout_width="150dp"
+            android:layout_height="30sp"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/spiner1"
+            android:layout_width="150dp"
+            android:layout_height="30sp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout2"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#333333"
+         
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/imageButton7"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+        	android:background="@null"
+        	android:textSize="15sp"
+        	android:textColor="@color/white"
+        	android:text="Nổi Bật"
+             />
+         <Button
+            android:id="@+id/imageButton6"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+        	android:background="@null"
+        	android:textSize="15sp"
+        	android:textColor="@color/white"
+        	android:text="Nổi Bật"
+             />
+         <Button
+            android:id="@+id/imageButton5"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+        	android:background="@null"
+        	android:textSize="15sp"
+        	android:textColor="@color/white"
+        	android:text="Nổi Bật"
+             />
+    </LinearLayout>
+
+</RelativeLayout>
+</TabHost>

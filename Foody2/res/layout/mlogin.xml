@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#3f000000" >
+
+        <ImageButton
+            android:id="@+id/imtrove"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/titlebar_back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Foody"
+            android:textColor="#0000FF"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"       
+        android:orientation="vertical" >
+
+        
+	 <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"       
+        android:orientation="vertical" >
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="270sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/facebook1" />
+        </LinearLayout>
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"       
+        android:orientation="vertical" >
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="270sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/google" />
+        </LinearLayout>
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"       
+        android:orientation="vertical" >
+        <ImageButton
+            android:id="@+id/loginfoody"
+            android:layout_width="270sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:src="@drawable/yahoo" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

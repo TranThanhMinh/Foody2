@@ -12,25 +12,41 @@ import org.json.JSONObject;
 
 public class UserFunction {
 	
-	private jSon jsonParse;
+	private JSONParse jSon ;
 	
-	private static String registerURL = "http://minh1.comyr.com/new/ketnoi.php";//private static String registerURL = "http://10.0.2.2/android_login_api/";
-
 	
+	private static String search="http://minh1.comyr.com/new/search.php";
+	private static String regis="http://minh1.comyr.com/new/insert.php";
 	//Hàm xây dựng khởi tạo đối tượng
 	public UserFunction(){
-		jsonParse = new jSon();
+		jSon=new JSONParse();
 	}
 	
-	public JSONObject registerUser(String email, String password){
+	public JSONObject loadtt(String diachi){
 		//Xây dựng các giá trị
-		List<NameValuePair> params = new ArrayList<NameValuePair>();
-		params.add(new BasicNameValuePair("email",email));
-		params.add(new BasicNameValuePair("password",password));
-			
-		JSONObject json = jsonParse.getJSONFromUrl(registerURL,"POST",params);
+		List<NameValuePair> name=new ArrayList<NameValuePair>();
+		name.add(new BasicNameValuePair("DiaChi", diachi));
+		
+		JSONObject json=jSon.getJSONFromUrl("http://minh1.comyr.com/new/information.php",name);
+		return json;
+	}
+	public JSONObject search(String txtsaerch){
+		//Xây dựng các giá trị
+		List<NameValuePair> name=new ArrayList<NameValuePair>();
+		name.add(new BasicNameValuePair("search",txtsaerch));			
+		JSONObject json = jSon.getJSONFromUrl(search,name);
 		//Trả về đối tượng là 1 JSONObject
 		return json;
 	}
-	
+	public JSONObject register(String tk,String mk,String lmk,String tenht){
+		//Xây dựng các giá trị
+		List<NameValuePair> params=new ArrayList<NameValuePair>();
+		params.add(new BasicNameValuePair("TK",tk));	
+		params.add(new BasicNameValuePair("MK",mk));
+		params.add(new BasicNameValuePair("LMK",lmk));
+		params.add(new BasicNameValuePair("TenHT",tenht));
+		JSONObject json = jSon.getJSONFromUrl(regis,params);
+		//Trả về đối tượng là 1 JSONObject
+		return json;
+	}
 }

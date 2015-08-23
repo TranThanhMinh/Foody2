@@ -41,7 +41,7 @@
          android:gravity="center">
 
 		     <EditText
-		         android:id="@+id/editText1"
+		         android:id="@+id/txttk"
 		         android:layout_width="270dp"
 		         android:layout_height="40sp"
 		         android:hint="username"		         
@@ -58,7 +58,7 @@
          android:gravity="center">
 
 		     <EditText
-		         android:id="@+id/editText3"
+		         android:id="@+id/txtpass"
 		         android:layout_width="270dp"
 		         android:layout_height="40sp"
 		         android:hint="password"		         
@@ -72,7 +72,7 @@
          android:gravity="center">
 
              <Button
-                 android:id="@+id/button2"
+                 android:id="@+id/btnlogin"
                  android:layout_width="270dp"
 		         android:layout_height="40sp"
 		         android:background="#3f000000"
@@ -89,7 +89,7 @@
          android:background="#3f000000" >
 
          <Button
-             android:id="@+id/button1"
+             android:id="@+id/btndk"
              android:layout_width="match_parent"
              android:layout_height="40dp"
              android:background="@null"

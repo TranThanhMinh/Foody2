@@ -12,6 +12,7 @@ import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -35,10 +36,10 @@ public class jSon {
 		//Cố gắng thực hiện gửi yêu cầu lên HTTP
 		try {
 			if(method.equals("POST")){
-				DefaultHttpClient httpClient = new DefaultHttpClient();
+				HttpClient client=new DefaultHttpClient();
 				HttpPost httpPost = new HttpPost(url);
 				httpPost.setEntity(new UrlEncodedFormEntity(params));
-				HttpResponse httpResponse = httpClient.execute(httpPost);
+				HttpResponse httpResponse =  client.execute(httpPost);
 				HttpEntity httpEntity = httpResponse.getEntity();
 				is = httpEntity.getContent();
 			}

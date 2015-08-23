@@ -16,7 +16,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        
+        android:icon="@drawable/foody1"
         android:label="@string/app_name"
         android:theme="@style/Theme.Basic" >
         
@@ -60,7 +60,55 @@
             >
         </activity>
         <activity
-            android:name="com.android.contactslist.map"
+            android:name="com.android.contactslist.listdatcho"
+            >
+        </activity>
+         <activity
+            android:name="com.android.contactslist.listfoody"
+            >
+        </activity>
+         <activity
+            android:name="com.android.contactslist.FooDyView"
+            >
+        </activity>
+        <activity
+            android:name="com.android.contactslist.search"
+            >
+        </activity>
+         <activity
+            android:name="com.android.contactslist.informationfd"
+            >
+        </activity>
+        <activity
+            android:name="com.android.contactslist.register"
+            >
+        </activity>
+         <activity
+            android:name="com.android.contactslist.uselogin"
+            >
+        </activity>
+         <activity
+            android:name="com.android.contactslist.informationUse"
+            >
+        </activity>
+         <activity
+            android:name="com.android.contactslist.layout_datcho"
+            >
+        </activity>
+        <activity
+            android:name="com.android.contactslist.insert_datcho"
+            >
+        </activity>
+          <activity
+            android:name="com.android.contactslist.layout_thongtin"
+            >
+        </activity>
+        <activity
+            android:name="com.android.contactslist.changepassword"
+            >
+        </activity>
+         <activity
+            android:name="com.android.contactslist.layout_chitiet"
             >
         </activity>
     </application>
